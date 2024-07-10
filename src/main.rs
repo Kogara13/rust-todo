@@ -65,6 +65,11 @@ fn add(conn: &Connection, args: &Vec<String>) -> Result<()> {
     //Use the new vector of strings to create the concatenated task string
     let full_task = dick.join(" ");
 
+
+
+    //conn.execute(query::INSERT_INTO_TABLE, 
+    //    (&task.row, &task.description, &task.env, &task.status),
+    //)?;
     
 
     Ok(())
