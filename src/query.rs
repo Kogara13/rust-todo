@@ -6,4 +6,4 @@ pub const CREATE_TABLE: &str = "CREATE TABLE list (
                 status BOOLEAN
     )";
 
-pub const INSERT_INTO_TABLE: &str = "INSERT INTO list (row, description, status) VALUES (?1, ?2, ?3)";
+pub const INSERT_INTO_TABLE: &str = "INSERT INTO list (description, status) VALUES (?1, ?2)";
